@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MICHELIN</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/slickslider.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <h1 class="ral6w14">
+                <a href="index.html">MICHELIN</a>
+            </h1>
+            <nav class="ral6w14">
+                <div class="mobileNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div>
+                    <a href="index.html">home</a>
+                    <a href="list_page_1.html">restaurant</a>
+                    <a href="https://guide.michelin.com/kr/en/articles" target="_blank">magazine</a>
+                    <a href="https://guide.michelin.com/us/en/hotels" target="_blank">hotel</a>
+                    <a href="best_guide.html">best guide</a>
+                    <a href="about_us.html">about us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="index">
+        <div id="map">
+            <div>
+                <form action="list_page_1.html">
+                    <fieldset class="ral5w14">
+                        <ul class="index_customSelect">
+                            <li class="active">Distinction</li>
+                            <li>Michelin 3star</li>
+                            <li>Michelin 2star</li>
+                            <li>Michelin 1star</li>
+                            <li>Bib Gourmand</li>
+                        </ul>
+                        <input type="search" title="insert ur keywords" placeholder="keywords">
+                        <input type="submit" value="SEARCH" class="ral6w12">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="wrap">
+            <h2 class="ral6w28"><mark>Best Rated</mark> Restourants </h2>
+            <p class="ral6w14">Meet the restaurants selected by Michelin Guide. Enjoy a variety of foods and chefs' dishes, from places you go<br>
+                on special occasions to foods you can eat lightly.</p>
+            <ul class="ral6w14 mobile_customSelect">
+                <li class="tabBtn active" data-tabName="all">all</li>
+                <li class="tabBtn" data-tabName="contemporary">contemporary</li>
+                <li class="tabBtn" data-tabName="ltalian">ltalian</li>
+                <li class="tabBtn" data-tabName="korean">korean</li>
+                <li class="tabBtn" data-tabName="french">french</li>
+                <li class="tabBtn" data-tabName="japanesse">japanesse</li>
+                <li class="tabBtn" data-tabName="inobative">inobative</li>
+            </ul>
+            <div id="all" class="tabBox active">
+                <ul>
+                    <li>
+                        <a href="detail_page_mosu.html">
+                            <img src="images/detail_page_mosu5.png" alt="모수">
+                            <span>
+                                <strong class="ral6w18">
+                                    Mosu
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star3">starCount3</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                45 Itaewon-ro 55ga-gil, Yongsan-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_gaon.html">
+                            <img src="images/detail_page_gaon6.png" alt="gaon">
+                            <span>
+                                <strong class="ral6w18">
+                                    Gaon
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star3">starCount3</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                M Floor Horim Art Center, 317 Dosan-daero
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_kwonsooksoo.html">
+                            <img src="images/detail_page_kwonsooksoo5.png" alt="kwonsooksoo">
+                            <span>
+                                <strong class="ral6w18">
+                                    Kwonsooksoo
+                                    <small class="ral5w12">Korean</small>
+                                </strong>  
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                4F, 37 Apgujeong-ro 80-gil, Gangnam-gu,
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_layeon.html">
+                            <img src="images/detail_page_layeon5.png" alt="layeon">
+                            <span>
+                                <strong class="ral6w18">
+                                    La Yeon
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                23F Shilla Hotel, 249 Dongho-ro, Jung-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_mingles.html">
+                            <img src="images/detail_page_mingles6.png" alt="mingles">
+                            <span>
+                                <strong class="ral6w18">
+                                    Mingles
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 19 Dosan-daero 67-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_Soigne.html">
+                            <img src="images/detail_page_Soigne5.png" alt="Soigne">
+                            <span>
+                                <strong class="ral6w18">
+                                    Soigné
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F Sinsa square, 652 Gangnam-daero
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="contemporary" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="detail_page_mingles.html">
+                            <img src="images/detail_page_mingles6.png" alt="mingles">
+                            <span>
+                                <strong class="ral6w18">
+                                    Mingles
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 19 Dosan-daero 67-gil, Gangnam-gu
+                            </b>
+                        </a
+                    </li>
+                    <li>
+                        <a href="detail_page_junksik.html">
+                            <img src="images/detail_page_junksik5.png" alt="junksik">
+                            <span>
+                                <strong class="ral6w18">
+                                    Jungsik
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                11 Seolleung-ro 158-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_myomi.html">
+                            <img src="images/detail_page_myomi3.png" alt="myomi">
+                            <span>
+                                <strong class="ral6w18">
+                                    Myomi
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                5F Arario Space, 83 Yulgok-ro, Jongno-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_soul.html">
+                            <img src="images/detail_page_soul5.png" alt="soul">
+                            <span>
+                                <strong class="ral6w18">
+                                    Soul
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                B1F, 35 Sinheung-ro 26-gil, Yongsan-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_goryoriken.html">
+                            <img src="images/detail_page_goryoriken6.png" alt="goryoriken">
+                            <span>
+                                <strong class="ral6w18">
+                                    Goryori Ken
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 15-3 Eonju-ro 152-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_solbam.html">
+                            <img src="images/detail_page_solbam6.png" alt="solbam">
+                            <span>
+                                <strong class="ral6w18">
+                                    Solbam
+                                    <small class="ral5w12">Contemporary</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                4F, 6 Dosan-daero 37-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="ltalian" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="detail_page_fagp.html">
+                            <img src="images/detail_page_fagp3.png" alt="fagp">
+                            <span>
+                                <strong class="ral6w18">
+                                    FAGP
+                                    <small class="ral5w12">Ltalian</small>
+                                </strong>
+                                <i class="bib">bibGourmand</i>
+                                <i class="price2">priceGrade2</i>
+                            </span>
+                            <b class="ari5w14">
+                                136 Wangsimni-ro, Seongdong-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_eggflour.html">
+                            <img src="images/detail_page_eggflour6.png" alt="eggflour">
+                            <span>
+                                <strong class="ral6w18">
+                                    Egg & Flour
+                                    <small class="ral5w12">Ltalian</small>
+                                </strong>
+                                <i class="bib">bibGourmand</i>
+                                <i class="price2">priceGrade2</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 35 Shinheung-ro 26-gil, Yongsan-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="korean" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="detail_page_gaon.html">
+                            <img src="images/detail_page_gaon6.png" alt="gaon">
+                            <span>
+                                <strong class="ral6w18">
+                                    Gaon
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star3">starCount3</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                M Floor Horim Art Center, 317 Dosan-daero
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_kwonsooksoo.html">
+                            <img src="images/detail_page_kwonsooksoo5.png" alt="kwonsooksoo">
+                            <span>
+                                <strong class="ral6w18">
+                                    Kwonsooksoo
+                                    <small class="ral5w12">Korean</small>
+                                </strong>  
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                4F, 37 Apgujeong-ro 80-gil, Gangnam-gu,
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_layeon.html">
+                            <img src="images/detail_page_layeon5.png" alt="layeon">
+                            <span>
+                                <strong class="ral6w18">
+                                    La Yeon
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                23F Shilla Hotel, 249 Dongho-ro, Jung-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_joook.html">
+                            <img src="images/detail_page_joook5.png" alt="joook">
+                            <span>
+                                <strong class="ral6w18">
+                                    Joo Ok
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                3F The Plaza Hotel, 119 Sogong-ro, Jung-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_bicena.html">
+                            <img src="images/detail_page_bicena5.png" alt="bicena">
+                            <span>
+                                <strong class="ral6w18">
+                                    Bicena
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                81F Lotte World Tower, 300 Olympic-ro, Songpa-gu,
+                            </b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="detail_page_yun.html">
+                            <img src="images/detail_page_yun3.png" alt="yun">
+                            <span>
+                                <strong class="ral6w18">
+                                    YUN
+                                    <small class="ral5w12">Korean</small>
+                                </strong>
+                                <i class="star3">starCount3</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 31 Hongik-ro 22-gil, Mapo-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="french" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="detail_page_lamitie.html">
+                            <img src="images/detail_page_lamitie5.png" alt="lamitie">
+                            <span>
+                                <strong class="ral6w18">
+                                    L'Amitié
+                                    <small class="ral5w12">French</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price3">priceGrade3</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F, 30 Dosan-daero 67-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_pierregagnaire.html">
+                            <img src="images/detail_page_pierregagnaire5.png" alt="pierregagnaire">
+                            <span>
+                                <strong class="ral6w18">
+                                    Pierre Gagnaire
+                                    <small class="ral5w12">French</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                35F Lotte Hotel, 30 Eulji-ro, Jung-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_kangminchulRestaurant.html">
+                            <img src="images/detail_page_kangminchulRestaurant3.png" alt="kangminchulRestaurant">
+                            <span>
+                                <strong class="ral6w18">
+                                    KANG MINCHUL Restaurant
+                                    <small class="ral5w12">French</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                B1F, 18 Dosan-daero 68-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="japanesse" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="detail_page_kojima.html">
+                            <img src="images/detail_page_kojima6.png" alt="kojima">
+                            <span>
+                                <strong class="ral6w18">
+                                    Kojima
+                                    <small class="ral5w12">Sushi</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                6F Boon the Shop, 21 Apgujeong-ro 60-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_sushimatsumoto.html">
+                            <img src="images/detail_page_sushimatsumoto6.png" alt="sushimatsumoto">
+                            <span>
+                                <strong class="ral6w18">
+                                    Sushi Matsumoto
+                                    <small class="ral5w12">Sushi</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                24 Dosan-daero 75-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_hane.html">
+                            <img src="images/detail_page_hane5.png" alt="hane">
+                            <span>
+                                <strong class="ral6w18">
+                                    HANE
+                                    <small class="ral5w12">Sushi</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                14 Eonju-ro 172-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_mitou.html">
+                            <img src="images/detail_page_mitou4.png" alt="mitou">
+                            <span>
+                                <strong class="ral6w18">
+                                    Mitou
+                                    <small class="ral5w12">Japanesse</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                4 Dosan-daero 70-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_muni.html">
+                            <img src="images/detail_page_muni3.png" alt="muni">
+                            <span>
+                                <strong class="ral6w18">
+                                    Muni
+                                    <small class="ral5w12">Japanesse</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                16 Dosan-daero 72-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_yakitorimook.html">
+                            <img src="images/detail_page_yakitorimook6.png" alt="yakitorimook">
+                            <span>
+                                <strong class="ral6w18">
+                                    Yakitori Mook
+                                    <small class="ral5w12">Yakitori</small>
+                                </strong>
+                                <i class="bib">bibGourmand</i>
+                                <i class="price2">priceGrade2</i>
+                            </span>
+                            <b class="ari5w14">
+                                165-1 Seongmisan-ro, Mapo-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="inobative" class="tabBox">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/detail_page_mosu5.png" alt="모수">
+                            <span>
+                                <strong class="ral6w18">
+                                    Mosu
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star3">starCount3</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                45 Itaewon-ro 55ga-gil, Yongsan-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_Soigne.html">
+                            <img src="images/detail_page_Soigne5.png" alt="Soigne">
+                            <span>
+                                <strong class="ral6w18">
+                                    Soigné
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                2F Sinsa square, 652 Gangnam-daero
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_allaPrima.html">
+                            <img src="images/detail_page_allaPrima6.png" alt="allaPrima">
+                            <span>
+                                <strong class="ral6w18">
+                                    alla Prima
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star2">starCount2</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                13 Hakdong-ro 17-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_zerocomplex.html">
+                            <img src="images/detail_page_zerocomplex4.png" alt="zerocomplex">
+                            <span>
+                                <strong class="ral6w18">
+                                    Zero Complex
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price3">priceGrade3</i>
+                            </span>
+                            <b class="ari5w14">
+                                3F, 30 Toegye-ro 6ga-gil, Jung-gu
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_eatanicgarden.html">
+                            <img src="images/detail_page_eatanicgarden5.png" alt="eatanicgarden">
+                            <span>
+                                <strong class="ral6w18">
+                                    Eatanic Garden
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                36F Josun Palace Hotel, 231 Teheran-ro
+                            </b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_page_evett.html">
+                            <img src="images/detail_page_evett6.png" alt="evett">
+                            <span>
+                                <strong class="ral6w18">
+                                    Evett
+                                    <small class="ral5w12">Inobative</small>
+                                </strong>
+                                <i class="star1">starCount1</i>
+                                <i class="price4">priceGrade4</i>
+                            </span>
+                            <b class="ari5w14">
+                                33 Dogok-ro 23-gil, Gangnam-gu
+                            </b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="list_page_1.html" class="btn170 ral6w12">ALL LISTINGS</a>
+        </div>
+        <div>
+            <div class="wrap">
+                <span></span>
+                <h2 class="ral6w28"><mark>Best</mark>Guide</h2>
+                <ul class="mainSlider">
+                    <li>
+                        <div>
+                            <a href="best_guide.html">
+                                <img src="images/index_slider_img01.png" alt="간장게장 정식">
+                                <span>
+                                    <strong class="ral6w18">A place where you can taste the best
+                                        marinated crab.</strong>
+                                    <b class="ari5w14">MICHELIN GUIDE</b>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="best_guide.html">
+                                <img src="images/index_slider_img02.png" alt="쌀이 담겨있는 나무통">
+                                <span>
+                                    <strong class="ral6w18">A place where you can taste Korean, 
+                                        Chinese, Japanese rice</strong>
+                                    <b class="ari5w14">MICHELIN GUIDE</b>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="best_guide.html">
+                                <img src="images/index_slider_img03.png" alt="고급요리가 있는 테이블">
+                                <span>
+                                    <strong class="ral6w18">A place Where you can taste 3 Michelin
+                                        Stars in Seoul</strong>
+                                    <b class="ari5w14">MICHELIN GUIDE</b>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="best_guide.html">
+                                <img src="images/index_slider_img04.png" alt="돼지국밥">
+                                <span>
+                                    <strong class="ral6w18">A place Where you can taste Korean-style
+                                        soup in Seoul</strong>
+                                    <b class="ari5w14">MICHELIN GUIDE</b>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="best_guide.html" class="btn170 ral6w12">all listings</a>
+            </div>
+        </div>
+        <div class="wrap">
+            <h2 class="ral6w28"><mark>Michelin Guide</mark>Seoul's Partner</h2>
+            <p class="ral6w14">
+                Let me introduce you to Michelin Guide Seoul and the best partners.<br>
+                Meet the best brands in various fields.
+            </p>
+            <ul>
+                <li><a href="partners.html#genesis"></a></li>
+                <li><a href="partners.html#blancpain"></a></li>
+                <li><a href="partners.html#naver"></a></li>
+                <li><a href="partners.html#nespresso"></a></li>
+                <li><a href="partners.html#kurly"></a></li>
+                <li><a href="partners.html#rsrv"></a></li>
+                <li><a href="partners.html#sanpellegrino"></a></li>
+                <li><a href="partners.html#aberlour"></a></li>
+                <li><a href="partners.html#cellarprivee"></a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="ral6w14">
+            <p>If you want to add your restaurant to our homepage, press the button next to it and send a message. 
+                We'll be waiting for you.  Thank you.</p>
+            <a href="mailto:michelinguide.seoul@michelin.com" class="btn190 ral6w12">ADD RESTAURANT</a>
+        </div>
+        <div>
+            <div>
+                <ul class="ral6w14">
+                    <li class="active"><a href="best_guide.html">ABOUT THE GUIDE</a></li>
+                    <li><a href="mailto:michelinguide.seoul@michelin.com">CONTACT US</a></li>
+                    <li><a href="partners.html">PARTNERS</a></li>
+                    <li><a href="https://www.michelin.com/eng/">THE MICHELIN COMPANY</a></li>
+                    <li><a href="https://www.michelin.com.br/home.html">MICHELIN TIRES</a></li>
+                    <li><a href="https://www.viamichelin.com/">VIAMICHELIN</a></li>
+                </ul>
+                <a href="https://www.youtube.com/c/MICHELINGuideAsia">youtube</a>
+                <a href="https://twitter.com/MichelinGuideUK">twitter</a>
+                <a href="https://www.instagram.com/michelinguide/">instagram</a>
+                <a href="https://www.facebook.com/MichelinGuideSeoul/">facebook</a>
+            </div>
+            <ul class="ral3w16 tickerSlider">
+                <li>
+                    <a href="https://guide.michelin.com/gr/en">Greece</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/nl/nl">Netherlands</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/no/en">Norway</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/dk/en">Denmark</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/de/de">Germany</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/ae-du/en">Dubai</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/lu/fr">Luxembourg</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/mo/en">Macau</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/my/en">Malaysia</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/mt/en">Malta</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/us/en">USA</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/be/fr">Belgium</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/br/pt_BR">Brazil</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/rs/en">Serbia</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/se/en">Sweden</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/ch/fr">Switzerland</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/es/es">Spain</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/si/en">Slovenia</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/sg/en">Singapore</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/ae-az/en">Abu Dhabi</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/is/en">Iceland</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/ee/en">Estonia</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/gb/en">UK</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/at/en">Austria</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/it/it">Italy</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/jp/en">Japan</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/en/cn/restaurants">China</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/cz/en">Czech</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/ca/en">Canada</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/hr/en">Croatia</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/tw/en">Taipei</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/th/en">Thailand</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/tr/en">Turkey</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/pt/pt_PT">Portugal</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/pl/en">Poland</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/fr/fr">France</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/fi/en">Finland</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/hu/en">Hungary</a>
+                </li>
+                <li>
+                    <a href="https://guide.michelin.com/hk/en">Hong Kong</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="ari5w14">Michelin @ 2023 All Rights Reserved</p>
+            <ul class="ari5w14">
+                <li><a href="terms_of_use.html">TERMS OF USE</a></li>
+                <li><a href="terms_of_use.html">COOKIES</a></li>
+                <li><a href="terms_of_use.html">PRIVACY POLICY</a></li>
+                <li><a href="legal_notice.html">LEGAL NOTICE</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

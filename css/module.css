@@ -1,0 +1,260 @@
+:root{
+    --gray1: #000;
+    --gray2: #2e2e2e;
+    --gray3: #525252;
+    --gray4: #8a8a8a;
+    --gray5: #ababab;
+    --gray6: #bdbdbd;
+    --gray7: #d1d1d1;
+    --gray8: #eee;
+    --gray9: #fff;
+
+    --green2: #112e18;
+    --green3: #1f522a;
+    --green4: #348a47;
+    --green5: #41ab58;
+    --green6: #48bd62;
+    --green7: #4fd16c;
+    --green8: #61ff83;
+
+    --sky2: #202e2c;
+    --sky3: #38524d;
+    --sky4: #5f8a83;
+    --sky5: #76aba2;
+    --sky6: #82bdb3;
+    --sky7: #90d1c6;
+    --sky8: #b0fff2;
+
+    --red2: #2e1111;
+    --red3: #521e1e;
+    --red4: #8a3333;
+    --red5: #ab3f3f;
+    --red6: #bd4646;
+    --red7: #d14d4d;
+    --red8: #ff5e5e;
+
+    --cyan2: #292a2e;
+    --cyan3: #494b52;
+    --cyan4: #7b7e8a;
+    --cyan5: #989dab;
+    --cyan6: #a8adbd;
+    --cyan7: #bac0d1;
+    --cyan8: #e3eaff;
+
+    --w20: 20px;
+    --w25: 25px;
+    --w40: 40px;
+
+}
+[class^='ari']{
+    font-family: 'arimo';
+}
+[class^='ral']{
+    font-family: 'Raleway';
+}
+@media screen and (max-width: 768px){
+    [class*='7w']{
+    font-weight: 700;
+    } 
+   [class*='6w']{
+    font-weight: 600;
+   } 
+   [class*='5w']{
+    font-weight: 500;
+   } 
+   [class*='4w']{
+    font-weight: 400;
+   } 
+   [class*='3w']{
+    font-weight: 300;
+   }
+   
+   [class$='60']{
+    font-size: 26px;
+   }
+   [class$='26']{
+    font-size: 24px;
+   }
+   [class$='28']{
+    font-size: 22px;
+   }
+   [class$='24']{
+    font-size: 24px;
+   }
+   [class$='20']{
+    font-size: 20px;
+   }
+   [class$='18']{
+    font-size: 18px;
+   }
+   [class$='16']{
+    font-size: 16px;
+   }
+   [class$='14']{
+    font-size: 14px;
+   }
+   [class$='12']{
+    font-size: 12px;
+   }
+}
+@media screen and (min-width: 768px) and (max-width:1279px) {
+    [class*='7w']{
+    font-weight: 700;
+    } 
+   [class*='6w']{
+    font-weight: 600;
+   } 
+   [class*='5w']{
+    font-weight: 500;
+   } 
+   [class*='4w']{
+    font-weight: 400;
+   } 
+   [class*='3w']{
+    font-weight: 300;
+   }
+   
+   [class$='60']{
+    font-size: 40px;
+   }
+   [class$='26']{
+    font-size: 26px;
+   }
+   [class$='28']{
+    font-size: 28px;
+   }
+   [class$='24']{
+    font-size: 24px;
+   }
+   [class$='20']{
+    font-size: 20px;
+   }
+   [class$='18']{
+    font-size: 18px;
+   }
+   [class$='16']{
+    font-size: 16px;
+   }
+   [class$='14']{
+    font-size: 14px;
+   }
+   [class$='12']{
+    font-size: 12px;
+   }
+}
+@media screen and (min-width: 1280px) {
+    [class*='7w']{
+    font-weight: 700;
+    } 
+   [class*='6w']{
+    font-weight: 600;
+   } 
+   [class*='5w']{
+    font-weight: 500;
+   } 
+   [class*='4w']{
+    font-weight: 400;
+   } 
+   [class*='3w']{
+    font-weight: 300;
+   }
+   
+   [class$='60']{
+    font-size: 60px;
+   }
+   [class$='26']{
+    font-size: 26px;
+   }
+   [class$='28']{
+    font-size: 28px;
+   }
+   [class$='24']{
+    font-size: 24px;
+   }
+   [class$='20']{
+    font-size: 20px;
+   }
+   [class$='18']{
+    font-size: 18px;
+   }
+   [class$='16']{
+    font-size: 16px;
+   }
+   [class$='14']{
+    font-size: 14px;
+   }
+   [class$='12']{
+    font-size: 12px;
+   }
+}
+[class^='star'],
+[class^='bib'],
+[class^='price'],
+[class^='de_price']{
+    background-repeat: no-repeat; text-indent: -9999px; line-height: 18px;
+}
+[class^='star'],
+[class^='bib'],
+[class^='price']
+{
+    display: inline-block;
+}
+[class^='price'],
+[class^='de_price']{
+    float: right;
+}
+[class^='price4']{
+    background-image: url('../images/dollar4.png');
+    width: 38px;
+}
+[class^='price3']{
+    background-image: url('../images/dollar3.png');
+    width: 28px;
+}
+[class^='price2']{
+    background-image: url('../images/dollar2.png');
+    width: 18px;
+}
+[class^='price1']{
+    background-image: url('../images/dollar.png');
+    width: 8px;
+}
+
+[class^='de_price4']{
+    background-image: url('../images/detail_price04.png');
+    width: 48px;
+}
+[class^='de_price3']{
+    background-image: url('../images/detail_price03.png');
+    width: 35px;
+}
+[class^='de_price2']{
+    background-image: url('../images/detail_price02.png');
+    width: 22px;
+}
+[class^='de_price1']{
+    background-image: url('../images/detail_price01.png');
+    width: 9px;
+}
+[class^='star3']{
+    background-image : url('../images/MICHELIN_3Star.png');
+    width: 58px;
+}
+[class^='star2']{
+    background-image : url('../images/MICHELIN_2Star.png');
+    width: 37px;
+}
+[class^='star1']{
+    background-image : url('../images/MICHELIN_Star.png');
+    width: 16px;
+}
+[class^='bib']{
+    background-image: url('../images/bib_gourmand.png');
+    width: 15px;
+}
+[class$='pR']{
+    background-position: right;
+}
+[class$='pL']{
+    background-position: left;
+}
