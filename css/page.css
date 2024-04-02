@@ -129,7 +129,7 @@
     .list_container{margin-bottom: 80px; overflow: hidden;}
     .list_container > img{width: 250%; margin-bottom: 60px; transform: translateX(-10%);}
     .list_container .wrap{position: relative;}
-    .list_container .wrap > div:not(.list_container .wrap > div:nth-of-type(3)){float: left;}
+    .list_container .wrap > div:not(:nth-of-type(3)){float: left;}
     .list_container .wrap::after{content: ""; display: block; clear: both; visibility: hidden;}
     .list_container .wrap > div:nth-of-type(1){width: 100%;}
     .list_container .wrap div:nth-of-type(1) h2{color: var(--sky3);}
@@ -208,36 +208,36 @@
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li b{display: block; text-align: center; margin-left: 18px; padding: 15px; box-sizing: border-box; color: var(--cyan4); background: url('../images/address_index.png') no-repeat left 16px;}
     
     
-    .list_container .wrap div:nth-of-type(2){width: 100%; max-width: 230px; position: absolute;}
-    .list_container .wrap div:nth-of-type(2) > *:not(.list_container .wrap div:nth-of-type(2) input[type='button']){display: none;  opacity: 0;}
-    .list_container .wrap div:nth-of-type(2).active{transition: 1s; position: fixed; overflow-y: scroll; overflow-x: hidden; height: 60%; right: 0px; background-color: var(--gray9); padding: 0 20px 20px 20px; box-sizing: border-box; box-shadow: -2px -2px 15px 2px var(--gray5);}
-    .list_container .wrap div:nth-of-type(2).active > *:not(.list_container .wrap div:nth-of-type(2) input[type='button']){display: block; transition: 1s; opacity: 1;}
+    .list_container .wrap div:nth-of-type(2){width: 100%; max-width: 280px; height: 100%; top: 50%; right: -280px; position: fixed; padding-left: 50px; overflow-y: scroll;
+        transition-property: top,right; transition-delay: 0s,0.35s; transition-duration: 0.35s; transition-timing-function: ease-out;
+    }
+    .list_container .wrap div:nth-of-type(2).active{
+        right: 0; top: 90px;
+    }    
+    .list_container .wrap div:nth-of-type(2) > div{
+        background-color: var(--gray9); padding: 20px 20px 80px 20px; box-sizing: border-box; box-shadow: -2px -2px 15px 2px var(--gray5);
+    }
+    .list_container .wrap div:nth-of-type(2).active > *:not(input[type='button']){display: block; transition: 1s; opacity: 1;}
     .list_container .wrap div:nth-of-type(2) input[type='button'].mui{
-        background-color: #38524d; border-radius: 8px 0 0 8px; text-indent: -9999px;
-        position: fixed; width: 50px; height: 50px; display: block; border: none; 
-        background-image: url("../images/tablet_controler.png"); right: 0;
-        background-repeat: no-repeat; transition: 1s;
-        background-position: center;
-        z-index: 5;
+        border-radius: 8px 0 0 8px; text-indent: -9999px; width: 50px; height: 50px; display: block; border: none; position: absolute; left: 0px; top: 0;
+        background: url("../images/tablet_controler.png") center / 15px no-repeat #38524d; transition: all .35s ease-out;
     }
-    .list_container .wrap div:nth-of-type(2) input[type='button'].mui.active{
-        border-radius: 0 8px 8px 0; right: 230px; transform: rotate(180deg); transition: 1s;
-        z-index: 4;
+    .list_container .wrap div:nth-of-type(2).active input[type='button'].mui.active{
+        border-radius: 0 8px 8px 0; transform: rotate(180deg);
     }
-    .list_container .wrap div:nth-of-type(2) form fieldset{ margin: 20px 0 50px 0;}
-    .list_container .wrap div:nth-of-type(2) form fieldset legend{text-transform: capitalize; color: var(--sky3); width: 100%;}
-    .list_container .wrap div:nth-of-type(2) form fieldset legend::after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 35px; width: 100%; max-width: 320px;}
-    .list_container .wrap div:nth-of-type(2) form fieldset div{position: relative;}
-    .list_container .wrap div:nth-of-type(2) form fieldset div input[type='search']{outline: none; border: none ; border-radius: 5px; box-shadow: 1px 1px 2px 2px #d1d1d1; padding: 13px 12px; width: 100%;}
-    .list_container .wrap div:nth-of-type(2) form fieldset div input[type='submit']{background: url('../images/search_btn.png') no-repeat right; padding: 12px 45px; border: none; text-indent: -9999px; border-radius: 0px 5px 5px 0px; position: absolute; top: 0; right: 0;}
-    .list_container .wrap div:nth-of-type(2) h3{color: var(--sky3); }
-    .list_container .wrap div:nth-of-type(2) h3:after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 25px; width: 100%; max-width: 320px;}
-    .list_container .wrap div:nth-of-type(2) ol{color: var(--sky3);}
-    .list_container .wrap div:nth-of-type(2) ol > li{position: relative;}
-    .list_container .wrap div:nth-of-type(2) ol > li::after{content: ''; display: block; clear: both; border-top: 2px solid #eee; width: 250px; position: absolute; top: 7px; left: 20px;}
-    .list_container .wrap div:nth-of-type(2) ol > li ul{padding: 20px 0; box-sizing: border-box;}
-    .list_container .wrap div:nth-of-type(2) ol > li ul > li{text-transform: capitalize;}
-    .list_container .wrap div:nth-of-type(2) ol > li ul > li:not(:last-of-type){margin-bottom: 15px;}
+    .list_container .wrap div:nth-of-type(2) > div form fieldset legend{text-transform: capitalize; color: var(--sky3); width: 100%;}
+    .list_container .wrap div:nth-of-type(2) > div form fieldset legend::after{content: ''; display: block; border-top: 2px solid #eee; padding: 10px 0 35px; width: 100%; max-width: 320px; box-sizing: border-box;}
+    .list_container .wrap div:nth-of-type(2) > div form fieldset div{position: relative; display: block; margin-bottom: 30px;}
+    .list_container .wrap div:nth-of-type(2) > div form fieldset div input[type='search']{outline: none; border: none ; line-height: 38px; border-radius: 5px; box-shadow: 1px 1px 2px 2px #d1d1d1; padding: 0 12px; width: 100%; box-sizing: border-box;}
+    .list_container .wrap div:nth-of-type(2) > div form fieldset div input[type='submit']{background: url('../images/search_btn.png') no-repeat right / contain; line-height: 38px; padding: 0px 45px; border: none; text-indent: -9999px; border-radius: 0px 5px 5px 0px; box-sizing: border-box; position: absolute; top: 0; right: 0;}
+    .list_container .wrap div:nth-of-type(2) > div h3{color: var(--sky3); }
+    .list_container .wrap div:nth-of-type(2) > div h3:after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 25px; width: 100%; max-width: 320px;}
+    .list_container .wrap div:nth-of-type(2) > div ol{color: var(--sky3);}
+    .list_container .wrap div:nth-of-type(2) > div ol > li{position: relative;}
+    .list_container .wrap div:nth-of-type(2) > div ol > li::after{content: ''; display: block; clear: both; border-top: 2px solid #eee; width: 250px; position: absolute; top: 7px; left: 20px;}
+    .list_container .wrap div:nth-of-type(2) > div ol > li ul{padding: 20px 0; box-sizing: border-box;}
+    .list_container .wrap div:nth-of-type(2) > div ol > li ul > li{text-transform: capitalize;}
+    .list_container .wrap div:nth-of-type(2) > div ol > li ul > li:not(:last-of-type){margin-bottom: 15px;}
 
     .list_container .wrap div.pager{width: 100%; max-width: 260px; padding: 10px 0; text-align: center; margin: 0 auto;}
     .list_container .wrap div.pager > *{float: left;}

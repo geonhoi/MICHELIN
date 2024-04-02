@@ -108,13 +108,18 @@ function btnSelect(target) {
     if ($(target).hasClass('list_btn')) {
         $(target).removeClass('active');
         $(this).addClass('active');
+        $(".list_container > .wrap > div > h2 > .listTitle").removeClass('active');
+        $(".list_container > .wrap > div > h2 > .listTitle").addClass('active');
         
     }else if($(target).hasClass('grid_btn')) {
       $(target).removeClass('active');
       $(this).addClass('active');
+      $(".list_container > .wrap > div > h2 > .listTitle").removeClass('active');
+      $(".list_container > .wrap > div > h2 > .gridTitle").addClass('active');
     }
   })
 }
+
 
 
 function viewSwap(){
