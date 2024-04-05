@@ -42,9 +42,8 @@
         <div class="wrap">
             <div>
                 <h2 class="ral6w26">Listings
-                    <span class="listTitle active">(list view)</span>
-                    <span class="gridTitle">(grid view)</span>
-                    
+                    <span id="listTitle" class="tabBox">(list view)</span>
+                    <span id="gridTitle" class="tabBox active">(grid view)</span>
                 </h2>
                 <div>
                     <form>
@@ -56,7 +55,6 @@
                                 <li>Michelin 1star</li>
                                 <li>Bib Gourmand</li>
                             </ul>
-
                             <ul class="value_customSelect">
                                 <li class="active">price</li>
                                 <li>very special</li>
@@ -64,13 +62,12 @@
                                 <li>pleasnat</li>
                                 <li>burdenless</li>
                             </ul>
-
                             <input class="ral7w12" type="submit" value="FILTER">
                         </fieldset>
                         <fieldset class="ral6w12">
                             <span class="ral6w14">view</span>
-                            <input type="button" value="list" class="active">
-                            <input type="button" value="grid">
+                            <input type="button" value="list" data-tabName="listTitle" class="tabBtn">
+                            <input type="button" value="grid" data-tabName="gridTitle" class="tabBtn active">
                         </fieldset>
                     </form>
                 </div>
