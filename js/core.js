@@ -5,18 +5,15 @@ $(function(){
   customSelect(".value_customSelect");
   customSelect(".mobile_customSelect");
   customSelect("footer > div:nth-of-type(2) > div > ul");
-  // clickEvent();
   slider(".tickerSlider","horizontal",true,true,100000,16,3,100/* ,0,false */);
-  // slider(".mainSlider","horizontal",false,false,400,2,1,450,180,false);
-  // controlSlider(".mainSlider");
   tabControl(".tabBtn",".tabBox");
   $(".fitMaps").fitVids();
   btnSelect(".list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) input");
   viewSwap();
   reSizeUI();
-  
   searchPanel();
   navActive(".mobileNav");
+  popupEvent();
 });
 function reSizeUI(){
   $(window).on('resize',function(){
@@ -51,24 +48,6 @@ function headerEffect(){
     }
   });
 }
-
-
-/* if($(window).width() < 768) {
-  // window 크기가 768보다 작을때
-  function mobilecustomSelect(target) {
-    $(target).click(function(){
-      $(this).toggleClass("active");
-  });
-  $(target + " li").click(function(){
-      $(this).siblings().removeClass("active");
-      $(this).addClass("active");
-  });
-  }
-  } else {
-  // window 크기가 768보다 클때
-  
-  
-  } */
 
 
 function slider(target,modeVal,tickVal,tickHover,speedVal,maxVal,minVal,slideW,slideM,pagernon){
@@ -108,14 +87,10 @@ function btnSelect(target) {
     if ($(target).hasClass('list_btn')) {
         $(target).removeClass('active');
         $(this).addClass('active');
-        /* $(".list_container > .wrap > div > h2 > .listTitle").removeClass('active'); */
-        /* $(".list_container > .wrap > div > h2 > .listTitle").addClass('active'); */
         
     }else if($(target).hasClass('grid_btn')) {
       $(target).removeClass('active');
       $(this).addClass('active');
-      /* $(".list_container > .wrap > div > h2 > .listTitle").removeClass('active'); */
-      /* $(".list_container > .wrap > div > h2 > .gridTitle").addClass('active'); */
     }
   })
 }
@@ -144,12 +119,6 @@ function searchPanel(){
 }
 
 
-
-/* $(window).scroll(function () { 
-	var scrollValue = $(document).scrollTop(); 
-    console.log(scrollValue); 
-}); */
-
 function navActive(text01) {
   $(text01).click(function(){
       $(this).toggleClass('active');
@@ -157,8 +126,10 @@ function navActive(text01) {
   });
 }
 
-/* function indexFilter(){
-  if matchMedia("min-width:1280px"){
+function popupEvent() {
+  var closeBtn = $('.popup > div > button')
+  $(closeBtn).click(function () {
+    $('.popup').addClass('active')
     
-  }
-} */
+  })
+}
