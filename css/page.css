@@ -356,12 +356,13 @@
     .guide_container > div hr{width: 100%; max-width: 200px; background-color: var(--red7); border: none; height: 2px; margin: 0 auto  40px;}
     .guide_container > div p{margin-bottom: 40px;}
     .guide_container > div > p:first-of-type::first-letter{font-size: 28px;}
-    .guide_container > div div.guide_info_grid{border: 1px solid var(--gray4); padding: 80px 15%; box-sizing: border-box; text-align: center;}
+    .guide_container > div div.guide_info_grid{border: 1px solid var(--gray4); padding: 40px 4%; box-sizing: border-box; text-align: center;}
     .guide_container > div div.guide_info_grid:not(:last-of-type){margin-bottom: 40px;}
     .guide_container > div div.guide_info_grid img{float: left; width: 100%; max-width: 500px;}
     .guide_container > div div.guide_info_grid h4{clear: both; color: var(--sky3); padding: 25px 0 10px; box-sizing: border-box;}
     .guide_container > div div.guide_info_grid h4 small{color: var(--gray5); margin-left: 20px;}
     .guide_container > div div.guide_info_grid h4 i{line-height: 14px; margin-left: 20px;}
+    .guide_container > div:nth-of-type(3) div.guide_info_grid h4 i{line-height: 18px;}
     .guide_container > div div.guide_info_grid > div {margin-bottom: 10px;}
     .guide_container > div div.guide_info_grid > div i{float: none; transform: translateY(25%);}
     .guide_container > div div.guide_info_grid > div address{display:inline-block; margin-left: 10px; color: var(--cyan4);}
@@ -840,6 +841,7 @@
     .guide_container > div div.guide_info_grid h4{clear: both; color: var(--sky3); padding: 25px 0 10px; box-sizing: border-box;}
     .guide_container > div div.guide_info_grid h4 small{color: var(--gray5); margin-left: 20px;}
     .guide_container > div div.guide_info_grid h4 i{line-height: 14px; margin-left: 20px;}
+    .guide_container > div:nth-of-type(3) div.guide_info_grid h4 i{line-height: 18px;}
     .guide_container > div div.guide_info_grid > div {margin-bottom: 10px;}
     .guide_container > div div.guide_info_grid > div i{float: none; transform: translateY(25%);}
     .guide_container > div div.guide_info_grid > div address{display:inline-block; margin-left: 10px; color: var(--cyan4);}
