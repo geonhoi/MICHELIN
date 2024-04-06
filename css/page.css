@@ -218,11 +218,11 @@
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li b{display: block; text-align: center; margin-left: 18px; padding: 15px; box-sizing: border-box; color: var(--cyan4); background: url('../images/address_index.png') no-repeat left 16px;}
     
     
-    .list_container .wrap div:nth-of-type(2){width: 100%; max-width: 280px; height: 100%; top: 50%; right: -280px; position: fixed; padding-left: 50px; overflow-y: scroll;
+    .list_container .wrap div:nth-of-type(2){width: 100%; max-width: 230px; height: 100%; top: 50%; right: -280px; position: fixed; padding-left: 50px; overflow-y: scroll;
         transition-property: top,right; transition-delay: 0s,0.35s; transition-duration: 0.35s; transition-timing-function: ease-out;
     }
     .list_container .wrap div:nth-of-type(2).active{
-        right: 0; top: 90px;
+        right: 0; top: 90px; z-index: 25;
     }    
     .list_container .wrap div:nth-of-type(2) > div{
         background-color: var(--gray9); padding: 20px 20px 80px 20px; box-sizing: border-box; box-shadow: -2px -2px 15px 2px var(--gray5);
@@ -673,7 +673,7 @@
     
     .list_container .wrap div:nth-of-type(2){width: 50%; max-width: 360px; position: absolute;}
     .list_container .wrap div:nth-of-type(2) > *:not(.list_container .wrap div:nth-of-type(2) input[type='button']){display: none;  opacity: 0;}
-    .list_container .wrap div:nth-of-type(2).active{ transition: 1s; position: fixed; overflow-y: scroll; height: calc(100% - 300px);  right: -1px; background-color: var(--gray9); padding: 0 20px 20px 20px; box-sizing: border-box; box-shadow: -8px -2px 8px 2px var(--gray5);}
+    .list_container .wrap div:nth-of-type(2).active{z-index: 25; transition: 1s; position: fixed; overflow-y: scroll; height: calc(100% - 300px);  right: -1px; background-color: var(--gray9); padding: 0 20px 20px 20px; box-sizing: border-box; box-shadow: -8px -2px 8px 2px var(--gray5);}
     .list_container .wrap div:nth-of-type(2).active > *:not(.list_container .wrap div:nth-of-type(2) input[type='button']){display: block; transition: 1s; opacity: 1;}
     .list_container .wrap div:nth-of-type(2) input[type='button'].mui{
         background-color: #38524d; border-radius: 8px 0 0 8px; text-indent: -9999px;
