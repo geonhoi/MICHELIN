@@ -101,7 +101,7 @@
     .index > div:nth-of-type(3) .wrap > ul > li a span{
         display: block;
     }
-    .index > div:nth-of-type(3) .wrap ul li a span strong{display: block; padding: 22px 30px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1; line-height: 30px; color: var(--sky3); text-align: center;}
+    .index > div:nth-of-type(3) .wrap ul li a span strong{display: block; padding: 22px 8%; box-sizing: border-box; border-bottom: 1px solid #d1d1d1; line-height: 30px; color: var(--sky3); text-align: center;}
     .index > div:nth-of-type(3) .wrap ul li a span b{display: block; box-sizing: border-box; padding: 22px 0 22px 45px; margin-left: 25px; background: url('../images/header_logo.png') no-repeat left; color: var(--gray2);}
 
     .index > div:nth-of-type(3) .wrap a.btn170{
@@ -653,7 +653,7 @@
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(3).active{background: url('../images/dollar3.png') no-repeat 85%;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(4).active{background: url('../images/dollar2.png') no-repeat 85%;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(5).active{background: url('../images/dollar.png') no-repeat 85%;}
-    .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) input[type="submit"]{width: 26%; max-width: 140px; padding: 16px; background-color: var(--green7); border: none; box-sizing: border-box; color: var(--gray9); border-radius: 0 5px 5px 0; box-shadow: 1px 3px 2px 1px var(--green6); cursor: pointer;}
+    .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) input[type="submit"]{width: 26%; max-width: 140px; padding: 0 16px; line-height: 44px; background-color: var(--green7); border: 1px solid transparent; box-sizing: border-box; color: var(--gray9); border-radius: 0 5px 5px 0; box-shadow: 1px 3px 2px 1px var(--green6); cursor: pointer;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2){width: 32.5%; line-height: 47px; text-align: right;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) span{display: inline-block; color: var(--sky3);}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) input{padding: 12px 10px 12px 40px; font-weight: inherit; font-size: inherit; box-sizing: border-box; border: none; box-shadow: 0px 1px 1px 1px var(--gray7); margin-left: 4%; border-radius: 5px;}
@@ -1020,7 +1020,7 @@
     .index > div:nth-of-type(1) > div form fieldset ul li:nth-of-type(4).active{background: url('../images/MICHELIN_Star.png') no-repeat 90%;}
     .index > div:nth-of-type(1) > div form fieldset ul li:nth-of-type(5).active{background: url('../images/bib_gourmand.png') no-repeat 90%;}
 
-    .index > div:nth-of-type(1) > div form fieldset input[type='search']{padding: 15px 15px; width: 39%; max-width: 376px; box-sizing: border-box; border: none; outline: none; border-radius: 0 4px 4px 0; margin-left: 2px; text-transform: capitalize;} 
+    .index > div:nth-of-type(1) > div form fieldset input[type='search']{padding: 0 15px; line-height: 44px; width: 39%; max-width: 376px; box-sizing: border-box; border: 1px solid transparent; outline: none; border-radius: 0 4px 4px 0; margin-left: 2px; text-transform: capitalize;} 
     .index > div:nth-of-type(1) > div form fieldset input[type='submit']{
         color: var(--gray9); background-color: var(--green6); border: none; margin-left: 15px; padding: 16px 0; box-sizing: border-box; border-radius: 5px; width: 21%; max-width: 200px;
     }
@@ -1206,7 +1206,7 @@
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(3).active{background: url('../images/dollar3.png') no-repeat 85%;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(4).active{background: url('../images/dollar2.png') no-repeat 85%;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(5).active{background: url('../images/dollar.png') no-repeat 85%;}
-    .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) input[type="submit"]{width: 26%; max-width: 140px; padding: 16px; background-color: var(--green7); border: none; box-sizing: border-box; color: var(--gray9); border-radius: 0 5px 5px 0; box-shadow: 1px 3px 2px 1px var(--green6); cursor: pointer;}
+    .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(1) input[type="submit"]{width: 26%; max-width: 140px; padding: 0 16px; line-height: 44px; background-color: var(--green7); border: 1px solid transparent; box-sizing: border-box; color: var(--gray9); border-radius: 0 5px 5px 0; box-shadow: 1px 3px 2px 1px var(--green6); cursor: pointer;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2){width: 32.5%; line-height: 47px; text-align: right;}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) span{display: inline-block; color: var(--sky3);}
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) input{padding: 12px 10px 12px 40px; font-weight: inherit; font-size: inherit; box-sizing: border-box; border: none; box-shadow: 0px 1px 1px 1px var(--gray7); margin-left: 4%; border-radius: 5px;}
