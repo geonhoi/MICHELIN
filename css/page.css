@@ -244,7 +244,7 @@
     .list_container .wrap div:nth-of-type(2) > div h3:after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 25px; width: 100%; max-width: 320px;}
     .list_container .wrap div:nth-of-type(2) > div ol{color: var(--sky3);}
     .list_container .wrap div:nth-of-type(2) > div ol > li{position: relative;}
-    .list_container .wrap div:nth-of-type(2) > div ol > li::after{content: ''; display: block; clear: both; border-top: 2px solid #eee; width: 250px; position: absolute; top: 7px; left: 20px;}
+    .list_container .wrap div:nth-of-type(2) > div ol > li::after{content: ''; display: block; clear: both; border-top: 2px solid #eee; width: 150px; position: absolute; top: 7px; left: 20px;}
     .list_container .wrap div:nth-of-type(2) > div ol > li ul{padding: 20px 0; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(2) > div ol > li ul > li{text-transform: capitalize;}
     .list_container .wrap div:nth-of-type(2) > div ol > li ul > li:not(:last-of-type){margin-bottom: 15px;}
