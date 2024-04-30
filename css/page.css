@@ -13,8 +13,7 @@
     .index > div:nth-of-type(1){margin-bottom: 80px;} 
     .index > div:nth-of-type(1) > div form fieldset{width: 100%; max-width: 738px; margin: 0 auto; text-align: center; padding: 15px 5%; box-sizing: border-box; background-color: var(--sky3); border-radius: 4px;}
     .index > div:nth-of-type(1) > div form fieldset::after{content: ''; display: block; clear: both; visibility: hidden;}
-    /* .index > div:nth-of-type(1) > div form fieldset > *{float: left;} */
-    .index > div:nth-of-type(1) > div form fieldset ul{display: none; /* width: 37.6%; text-align: left; max-width: 376px; padding: 0 15px; border: 1px solid transparent; box-sizing: border-box; border-radius: 4px 0 0 4px; appearance:none; background: url('../images/expand_more.png') no-repeat top 18px right 16px #fff; */}
+    .index > div:nth-of-type(1) > div form fieldset ul{display: none;}
     .index > div:nth-of-type(1) > div form fieldset ul.active{ background: url('../images/expand_more.png') no-repeat top 18px right 16px #fff;}
     .index > div:nth-of-type(1) > div form fieldset ul.active li{display: block;; cursor: pointer;}
     .index > div:nth-of-type(1) > div form fieldset ul li{/* width: 39%; max-width: 376px; */ box-sizing: border-box; display: none; line-height: 44px;}
@@ -45,26 +44,17 @@
     .index > div:nth-of-type(2) h2{margin-bottom: 35px; text-align: center;}
     .index > div:nth-of-type(2) h2 mark{color: var(--red7); background-color: transparent;}
     .index > div:nth-of-type(2) p{margin-bottom: 30px; text-align: center; line-height: 24px; color: var(--gray4);}
-
     .index > div:nth-of-type(2) > ul{width: 93%; max-width: 260px; margin: 0 auto; border: 1px solid #d1d1d1; border-radius: 5px; box-sizing: border-box; margin-bottom: 30px; background: url("../images/expand_more.png") no-repeat top 22px right 15px;}
     .index > div:nth-of-type(2) > ul li{width: 100%; padding: 18px 15px;box-sizing: border-box; text-transform: capitalize; display: block; cursor: pointer;}
     .index > div:nth-of-type(2) > ul.active li{display: block !important;}
     .index > div:nth-of-type(2) > ul li:not(.index > div:nth-of-type(2) > ul li.active){display: none;}
-    .index > div:nth-of-type(2) > ul li:first-of-type{}
-    .index > div:nth-of-type(2) > ul li:last-of-type{}
-    /* .index > div:nth-of-type(2) > ul.active li.acitve{color: var(--red7); text-transform: capitalize;} */
     .index > div:nth-of-type(2) > ul li.active{color: var(--red7);}
-
-    .index > div:nth-of-type(2) > div{display: none; width: 100%; /* max-width: 720px; */}
+    .index > div:nth-of-type(2) > div{display: none; width: 100%;}
     .index > div:nth-of-type(2) > div.active{display: block; margin: 0 auto;}
     .index > div:nth-of-type(2) > div.active ul{margin-bottom: 50px;}
     .index > div:nth-of-type(2) > div > ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .index > div:nth-of-type(2) > div > ul li{width: 93%; max-width: 260px; margin: 0 auto;}
-/* 280을 기준으로 박아야하는지 */
-
-
     .index > div:nth-of-type(2) > div > ul li:not(:last-of-type){margin-bottom: 24px;}
-    /* .index > div:nth-of-type(2) > div > ul li:nth-of-type(n+3){margin-top: 60px;} */
     .index > div:nth-of-type(2) > div > ul li a{display: block; border: 1px solid #d1d1d1; box-sizing: border-box; border-radius: 5px;}
     .index > div:nth-of-type(2) > div > ul li a img{width: 100%; max-width: 360px; /* max-height: 220px; */}
     .index > div:nth-of-type(2) > div > ul li a span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
@@ -82,9 +72,6 @@
         text-align: center; color: var(--gray9); margin-bottom: 60px;
     }
     .index > div:nth-of-type(3) .wrap h2 mark{color: var(--green7); background-color: transparent; margin-right: 10px;}
-/*     .index > div:nth-of-type(3) .wrap{
-        max-width: 1085px; margin: 0 auto;
-    } */
     .index > div:nth-of-type(3) .wrap > ul{margin-bottom: 60px;}
     .index > div:nth-of-type(3) .wrap > ul .slick-list .slick-track > li.slick-active{opacity: 1; transition: 0.5s;}
     .index > div:nth-of-type(3) .wrap > ul .slick-list .slick-track > li:not(li.slick-active){opacity: 0; transition: 0.5s;}
@@ -92,7 +79,6 @@
 
     .index > div:nth-of-type(3) .wrap ul li{
         border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;
-        /* width: 260px !important; */
     }
     .index > div:nth-of-type(3) .wrap > ul > li:nth-of-type(2n){margin-left: 25%;}
     .index > div:nth-of-type(3) .wrap > ul > li:not(:nth-of-type(n+3)){margin-bottom: 60px;}
@@ -103,7 +89,6 @@
     }
     .index > div:nth-of-type(3) .wrap ul li a span strong{display: block; padding: 22px 8%; box-sizing: border-box; border-bottom: 1px solid #d1d1d1; line-height: 30px; color: var(--sky3); text-align: center;}
     .index > div:nth-of-type(3) .wrap ul li a span b{display: block; box-sizing: border-box; padding: 22px 0 22px 45px; margin-left: 25px; background: url('../images/header_logo.png') no-repeat left; color: var(--gray2);}
-
     .index > div:nth-of-type(3) .wrap a.btn170{
         padding: 16px 0; width: 65%; background-color: var(--green7); color: var(--gray9); box-shadow: var(--green6) 0px 2px 0px 1px; text-transform: uppercase;
     }
@@ -113,13 +98,11 @@
     .guide_container > a.btn170{
         padding: 7px 0; width: 65%; background-color: var(--sky3); color: var(--gray9); box-shadow: var(--sky2) 0px 2px 0px 1px; text-transform: capitalize; font-size: 16px;
     }
-
     .index > div:nth-of-type(4){text-align: center; padding: 80px 0 110px; box-sizing: border-box;}
     .index > div:nth-of-type(4) h2{color: var(--sky3); margin-bottom: 35px;}
     .index > div:nth-of-type(4) h2 mark{display: block; color: var(--red7); background-color: transparent; margin-top: 10px;}
     .index > div:nth-of-type(4) p{margin-bottom: 50px; line-height: 24px; }
     .index > div:nth-of-type(4) ul{width: 100%; padding: 0 3%; box-sizing: border-box; margin: 0 auto;}
-
     .index > div:nth-of-type(4) ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .index > div:nth-of-type(4) ul li{border: 1px solid var(--gray8); box-sizing: border-box; border-radius: 10px;}
     .index > div:nth-of-type(4) ul li:not(:last-of-type){margin-bottom: 30px;}
@@ -206,7 +189,6 @@
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li{border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;/*  width: 37.5%; max-width: 450px; float: left; */}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View::after{content: ''; display: block; clear: both; visibility: hidden;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li{width: 93%; max-width: 260px; margin-left: auto; margin-right: auto;}
-    /* .list_container .wrap div:nth-of-type(1) > ul.grid_View li:not(:nth-of-type(2n-1)){margin-left: 8.3%;} */
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:not(:last-of-type){margin-bottom: 30px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;/*  max-height: 260px; */}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a{display: block; border-radius: 5px;}
@@ -214,18 +196,17 @@
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong{display: block; color: var(--sky3); margin-bottom: 15px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong small{margin-left: 20px; color: var(--gray5);}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > span{display: none;}
-    /* .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > i:last-of-type{margin-left: 66%;} */
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li b{display: block; text-align: center; margin-left: 18px; padding: 15px; box-sizing: border-box; color: var(--cyan4); background: url('../images/address_index.png') no-repeat left 16px;}
     
     
     .list_container .wrap div:nth-of-type(2){width: 100%; max-width: 230px; height: 100%; top: 50%; right: -230px; position: fixed; padding-left: 50px; overflow-y: scroll;
-        transition-property: top,right; transition-delay: 0s,0.35s; transition-duration: 0.35s; transition-timing-function: ease-out;
+        transition-property: top,right; transition-delay: 0s,0.35s; transition-duration: 0.35s; transition-timing-function: ease-out; z-index: 5;
     }
     .list_container .wrap div:nth-of-type(2).active{
         right: 0; top: 90px; z-index: 25;
     }    
     .list_container .wrap div:nth-of-type(2) > div{
-        background-color: var(--gray9); padding: 20px 20px 80px 20px; box-sizing: border-box; box-shadow: -2px -2px 15px 2px var(--gray5);
+        background-color: var(--gray9); padding: 20px 20px 80px 20px; box-sizing: border-box; 
     }
     .list_container .wrap div:nth-of-type(2).active > *:not(input[type='button']){display: block; transition: 1s; opacity: 1;}
     .list_container .wrap div:nth-of-type(2) input[type='button'].mui{
@@ -302,8 +283,6 @@
 
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div{width: 100%; }
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul{width: 100%;}
-    /* .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > *{ float: left;} */
-    /* .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul::after{content: ''; display: block; clear: both; visibility: hidden;} */
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul .slick-list{width: 93%; max-width: 260px; margin: 0 auto 20px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul .slick-list .slick-track > li img{width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > ul.slick-dots{position: static; width: 100%; max-width: 260px; margin: 0 auto;}
@@ -319,7 +298,7 @@
     .detail_container > div:nth-of-type(3).wrap > aside > div a:first-of-type{background: url('../images/detail_tel.png') no-repeat; padding: 0 0 1px 25px; margin-bottom: 30px; color: inherit; font: inherit;}
     .detail_container > div:nth-of-type(3).wrap > aside > div a:last-of-type{background: url('../images/detail_link.png') no-repeat; padding: 0 0 1px 25px; }
     .detail_container > div:nth-of-type(3).wrap > aside > div a{display: block; line-height: 15px;}
-        .detail_container > div:nth-of-type(3).wrap > aside h2::after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 20px; width: 100%;}
+    .detail_container > div:nth-of-type(3).wrap > aside h2::after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 20px; width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > aside h2{width: 100%; text-align: center;} 
     .detail_container > div:nth-of-type(3).wrap > aside ul{width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > aside h2{order:-1;}
@@ -331,8 +310,6 @@
     .detail_container > div:nth-of-type(3).wrap > aside ul li::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span{display: block; float: right; width: 60%; margin-right: 10%;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span.detail_closed{color: var(--red7);}
-
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2){clear: both; text-align: center;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) h2{color: var(--sky3); margin-bottom: 20px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li:first-of-type{width: 93%; text-align: initial; max-width: 260px; display: inline-block;  border: 1px solid #d1d1d1; border-radius: 5px; box-sizing: border-box;}
@@ -420,7 +397,6 @@
     .about_container > hr{width: 200px; margin: 0 auto; margin-bottom: 80px;}
     .about_container > div > h3{margin-bottom: 60px; text-align: center;}
     .about_container > div > figure{margin-bottom: 40px;}
-    /* 여기 */
     .about_container > div > figure img{transition: 2s; opacity: 0;}
     .about_container > div > figure.active img{ opacity: 1;}
     .about_container > div > figure figcaption{color: var(--gray1); padding: 50px 3%;}
@@ -510,7 +486,7 @@
     .index > div:nth-of-type(2) > div > ul li:not(:nth-of-type(2n-1)){margin-left: 8.3%;}
     .index > div:nth-of-type(2) > div > ul li:nth-of-type(n+3){margin-top: 60px;}
     .index > div:nth-of-type(2) > div > ul li a{display: block; border: 1px solid #d1d1d1; box-sizing: border-box; border-radius: 5px;}
-    .index > div:nth-of-type(2) > div > ul li a img{width: 100%; max-width: 360px; /* max-height: 220px; */}
+    .index > div:nth-of-type(2) > div > ul li a img{width: 100%; max-width: 360px;}
     .index > div:nth-of-type(2) > div > ul li a span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
     .index > div:nth-of-type(2) > div > ul li a span strong{display: block; color: var(--sky3);}
     .index > div:nth-of-type(2) > div > ul li a span strong small{display: block; color: var(--gray5); padding: 10px 0 15px; box-sizing: border-box;}
@@ -540,19 +516,11 @@
     .index > div:nth-of-type(3) .wrap .mainSlider{
         margin-bottom: 60px;
     }
-    /* .index > div:nth-of-type(3) .wrap .mainSlider > li{
-        margin:0 28px !important;
-    } */
-    /* .index > div:nth-of-type(3) .wrap ul.mainSlider::after{content: ''; display: block; clear: both; visibility: hidden;} */
     .index > div:nth-of-type(3) .wrap .bx-wrapper .bx-prev, 
     .index > div:nth-of-type(3) .wrap .bx-wrapper .bx-next, 
     .index > div:nth-of-type(3) .wrap .bx-wrapper .bx-prev:hover, 
     .index > div:nth-of-type(3) .wrap .bx-wrapper .bx-next:hover{
         display: none;
-    }
-    .index > div:nth-of-type(3) .wrap ul li{
-        
-        /* width: 384px !important; */
     }
     .index > div:nth-of-type(3) .wrap ul li div{
     width: 320px;
@@ -586,8 +554,7 @@
     .index > div:nth-of-type(4) h2{color: var(--sky3); margin-bottom: 20px;}
     .index > div:nth-of-type(4) h2 mark{color: var(--red7); background-color: transparent; margin-right: 10px;}
     .index > div:nth-of-type(4) p{margin-bottom: 50px; line-height: 24px;}
-    .index > div:nth-of-type(4) ul{width: 100%; padding: 0 8%; box-sizing: border-box; /* margin: 0 8%; */}
-    /* margin으로 하면 왜 넘어가고 padding으로 하면 왜  */
+    .index > div:nth-of-type(4) ul{width: 100%; padding: 0 8%; box-sizing: border-box;}
     .index > div:nth-of-type(4) ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .index > div:nth-of-type(4) ul li{ float: left; width: 30%; border: 1px solid var(--gray8); box-sizing: border-box; border-radius: 10px;}
     .index > div:nth-of-type(4) ul li:nth-of-type(2n){margin-left: 14%;}
@@ -664,8 +631,6 @@
     .list_container .wrap div:nth-of-type(1) > div form fieldset:nth-of-type(2) input:nth-of-type(2).active{background: url('../images/grid_btn_active.png') no-repeat 10px var(--green7);}
     .list_container .wrap div:nth-of-type(1) > ul{margin-bottom: 40px;}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li.dif_type{position: relative;}
-/*     .list_container .wrap div:nth-of-type(1) > ul.list_View li.dif_type a{padding: 20px 20px 0 20px !important;}
-    .list_container .wrap div:nth-of-type(1) > ul.list_View li.dif_type a b{position: absolute; bottom: 20px; width: 58%; max-width: 392px;} */
     .list_container .wrap div:nth-of-type(1) > ul.list_View li{width: 100%; position: relative; border: 1px solid #d1d1d1; border-radius: 5px;  box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li:not(:last-of-type){margin-bottom: 40px;}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li > *{float: left;}
@@ -677,21 +642,18 @@
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > span strong small{display: inline-block; margin-left: 5px; color: var(--gray5);}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > span > span{display: block; margin-top: 15px; color: var(--gray5); line-height: 20px;}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > b{display: block; width: 58%; position: absolute; bottom: 20px; box-sizing: border-box; color: var(--cyan4); border-top: 1px solid #d1d1d1; padding-top: 20px;}
-    .list_container .wrap div:nth-of-type(1) > ul.grid_View li{border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;/*  width: 37.5%; max-width: 450px; float: left; */}
+    .list_container .wrap div:nth-of-type(1) > ul.grid_View li{border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View::after{content: ''; display: block; clear: both; visibility: hidden;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li{width: 47%; max-width: 330px; float: left;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:not(:nth-of-type(2n-1)){margin-left: 8.3%;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:nth-of-type(-n + 9){margin-bottom: 60px;}
-    .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;/*  max-height: 260px; */}
+    .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a{display: block; border-radius: 5px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong{display: block; color: var(--sky3);}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong small{display: block; color: var(--gray5); padding: 10px 0 15px; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > span{display: none;}
-    /* .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > i:last-of-type{margin-left: 66%;} */
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li b{display: block; margin-left: 18px; padding: 15px; color: var(--cyan4); box-sizing: border-box; background: url('../images/address_index.png') no-repeat left;}
-    
-    
     .list_container .wrap div:nth-of-type(2){width: 50%; max-width: 360px; position: absolute;}
     .list_container .wrap div:nth-of-type(2) > *:not(.list_container .wrap div:nth-of-type(2) input[type='button']){display: none;  opacity: 0;}
     .list_container .wrap div:nth-of-type(2).active{z-index: 25; transition: 1s; position: fixed; overflow-y: scroll; height: calc(100% - 300px);  right: -1px; background-color: var(--gray9); padding: 0 20px 20px 20px; box-sizing: border-box; box-shadow: -8px -2px 8px 2px var(--gray5);}
@@ -705,9 +667,8 @@
         z-index: 5;
     }
     .list_container .wrap div:nth-of-type(2) input[type='button'].mui.active{
-        right: 360px;/*  position: absolute; */ border-radius: 0 8px 8px 0;
+        right: 360px; border-radius: 0 8px 8px 0;
         z-index: 4; transform: rotate(180deg);
-        /* background-image: url(); */
     }
     .list_container .wrap div:nth-of-type(2) form fieldset{ margin:20px 0 50px;}
     .list_container .wrap div:nth-of-type(2) form fieldset legend{text-transform: capitalize; color: var(--sky3); width: 100%;}
@@ -733,7 +694,6 @@
     .list_container .wrap div.pager > a:nth-of-type(2){background: url('../images/pager_rightArrow.png') no-repeat center;}
     .list_container .wrap div.pager > a:nth-of-type(1):hover{background: var(--green7) url('../images/pager_leftArrow_active.png') no-repeat center;}
     .list_container .wrap div.pager > a:nth-of-type(2):hover{background: var(--green7) url('../images/pager_rightArrow_active.png') no-repeat center;}
-    /* .list_container .wrap div.pager > a{padding: 10px 15px;} */
     .list_container .wrap div.pager ol::after{content: ''; clear: both; display: block; visibility: hidden;}
     .list_container .wrap div.pager ol{padding: 0 20px; box-sizing: border-box; line-height: 35px;}
     .list_container .wrap div.pager ol li{float: left;}
@@ -742,11 +702,10 @@
     .list_container .wrap div.pager ol li a:hover{color: var(--sky3);}
     .list_container .wrap div.pager ol li a.active{color: var(--sky3);}
 
-
     .detail_container{margin-bottom: 60px;}
     .detail_container > div:nth-of-type(1){margin-bottom: 30px; display: flex;}
     .detail_container > div:nth-of-type(1):after{content: ''; display: block; clear: both;}
-    .detail_container > div:nth-of-type(1) figure{width: 100%; /* padding: 350px 0 60px; */ position: relative;}
+    .detail_container > div:nth-of-type(1) figure{width: 100%; position: relative;}
     .detail_container > div:nth-of-type(1) figure img{width: 100%;}
     .detail_container > div:nth-of-type(1) figure figcaption{padding: 30px 0 30px 24px; width: 100%; color: white; background: url('../images/opacitiy_detail.png') no-repeat; box-sizing: border-box; position: absolute; bottom: 30px;}
     .detail_container > div:nth-of-type(1) figure figcaption small{margin-left: 20px; text-transform: capitalize;}
@@ -760,9 +719,6 @@
     .detail_container > div:nth-of-type(2) ul li{display: inline-block;}
     .detail_container > div:nth-of-type(2) ul li:not(:first-of-type){margin-left: 55px;}
     .detail_container > div:nth-of-type(2) ul li a{display: block;}
-    
-    /* .detail_container > div:nth-of-type(3).wrap > *:not(:last-child){float: left;} */
-    /* .detail_container > div:nth-of-type(3).wrap::after{content: ''; display: block; clear: both; visibility: hidden;} */
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1){width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div{margin-bottom: 60px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div h2{text-transform: capitalize; color: var(--sky3);}
@@ -771,11 +727,9 @@
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) span{display: block; transform: translateY(-25%); margin-bottom: 10px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) span i{margin-right: 10px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) p{ line-height: 20px;}
-
     .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(2) ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(2) ul li{float: left; width: 50%; color: var(--sky3);}
     .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(2) ul li:nth-of-type(n+3){margin-top: 15px;}
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div{width: 100%; }
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul{width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > *{ float: left;}
@@ -789,31 +743,6 @@
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > ul.slick-dots > li:nth-of-type(2n){margin-left: 7%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > ul.slick-dots > li:nth-of-type(2n-1){margin-left: 7%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > ul.slick-dots > li > img{ width: 100%; height: inherit;}
-    /* .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div:after{content: ''; display: block; clear: both;}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div > .bx-wrapper,
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager{float: left;}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div > .bx-wrapper{width: 60%; border: none;}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager{width: 35%; margin-left: 5%; list-style: none; transform: translateY(5%);}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager:after{content: ''; display: block; clear: both;}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li{
-        width: 45%; float: left;
-    }
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li:nth-child(2n){
-        margin-left: 10%;
-    }
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li:nth-of-type(-n+4){
-        margin-bottom: 10%;
-    }
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li a,
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li a img{
-        display: block;
-    }
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li a img{
-        width: 100%;
-    }
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li a.active{background-color: black;}
-    .detail_container > div:nth-of-type(3).wrap > div > div:nth-of-type(3) div ol.galleryThumbPager li a.active img{opacity: 0.5;}
-     */
     .detail_container > div:nth-of-type(3).wrap > aside{/* width: 27.4%; */ /* margin: 55px 0 0 6%; */ color: var(--sky3);}
     .detail_container > div:nth-of-type(3).wrap > aside > div{float: right; width: 28%; max-width: 200px; padding: 25px; box-sizing: border-box; background-color: #eee; border-radius: 5px; color: var(--sky3); margin-top: 36px;}
     .detail_container > div:nth-of-type(3).wrap > aside > div a:first-of-type{background: url('../images/detail_tel.png') no-repeat; padding: 0 0 1px 25px; margin-bottom: 30px; color: inherit; font: inherit;}
@@ -825,13 +754,11 @@
     .detail_container > div:nth-of-type(3).wrap > aside ul{margin-bottom: 60px;}
     .detail_container > div:nth-of-type(3).wrap > aside ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > aside ul > *{float: left;}
-    .detail_container > div:nth-of-type(3).wrap > aside ul li{text-transform: uppercase; width: 33%; /* display: flex; justify-content: space-between; */}
+    .detail_container > div:nth-of-type(3).wrap > aside ul li{text-transform: uppercase; width: 33%; }
     .detail_container > div:nth-of-type(3).wrap > aside ul li:not(:last-of-type){margin-bottom: 20px;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span{display: block; float: right; width: 60%; margin-right: 12%;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span.detail_closed{color: var(--red7);}
-
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2){clear: both;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) h2{color: var(--sky3); margin-bottom: 20px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li{width: 46%; max-width: 330px; display: inline-block;  border: 1px solid #d1d1d1; border-radius: 5px; box-sizing: border-box;}
@@ -907,8 +834,6 @@
     .legal_container span{display: block; margin-bottom: 60px;}
     
     .about_container figure.active img{
-        /* animation-name: imgEvent;
-        animation-duration: 7s; */
         opacity: 1;
     }
     .about_container > div:nth-of-type(2) > figure.active figcaption{
@@ -934,7 +859,6 @@
     .about_container > div > figure{position: relative;}
     .about_container > div:nth-of-type(2) > figure{margin-bottom: 190px;}
     .about_container > div:nth-of-type(3) > figure{margin-bottom: 270px;}
-    /* 여기 */
     .about_container > div > figure img{transition: 2s; opacity: 0;}
     .about_container > div:nth-of-type(2) > figure img{}
     .about_container > div:nth-of-type(3) > figure img{}
@@ -945,17 +869,9 @@
     .about_container > div > p:not(.about_container .wrap:first-of-type > p){width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box;}
     .about_container > div > p:not(.wrap:first-of-type > p){ text-align: center;}
 
-    
-
     .about_container > div:nth-of-type(2) , .about_container > div:nth-of-type(3){margin: 0 auto 80px; width: 100%; max-width:720px;}
-    /* .about_container > div:nth-of-type(2) h3{margin-left: 3%;} */
-    /* .about_container > div:nth-of-type(2) > *:not(.about_container > div:nth-of-type(2) > h3 , .about_container > div:nth-of-type(2) > p){ padding-left: 19%; box-sizing: border-box;} */
-    /* .about_container > div:nth-of-type(2) > figure{justify-content: flex-end;} */
-    /* .about_container > div:nth-of-type(2) > figure figcaption{margin: 0 10% 0 19%;} */
-    .about_container > div:nth-of-type(3) h3{float: right; /* margin-right: 3%; */}
-    /* .about_container > div:nth-of-type(3) > *:not(.about_container > div:nth-of-type(3) > h3 , .about_container > div:nth-of-type(3) > p){ padding-right: 19%; box-sizing: border-box;} */
+    .about_container > div:nth-of-type(3) h3{float: right;}
     .about_container > div:nth-of-type(3) > figure{clear: both; justify-content: flex-start;}
-    /* .about_container > div:nth-of-type(3) > figure figcaption{margin: 0 19% 0 10%;} */
     .about_container > div:nth-of-type(4){margin-bottom: 60px;}
     .about_container > div:nth-of-type(4) img{isplay: block; margin: 0 auto 100px;}
     .partner_container h2{padding-bottom: 60px; color: var(--sky3); box-sizing: border-box; border-bottom: 1px solid var(--gray6);}
@@ -972,22 +888,15 @@
     .partner_container ul li:nth-of-type(7){background-position: right top 18%; padding-top: 120px; background-image: url('../images/partner_sanpellegrino.png');}
     .partner_container ul li:nth-of-type(8){background-position: left top 20%; padding-top: 160px; background-image: url('../images/partner_aberlour.png');}
     .partner_container ul li:nth-of-type(9){background-position: right top 20%; padding-top: 170px; background-image: url('../images/partner_cellarprivee.png');}
-    /* .partner_container ul li:nth-of-type(2n-1){background-position: right top;} */
     .partner_container ul li:nth-of-type(2n-1) > a{text-align: right;}
     .partner_container ul li h3{color: var(--red7); text-transform: uppercase; margin-bottom: 80px;}
     .partner_container ul li:nth-of-type(2n) h3{float: right; text-align: right;}
-    /* .partner_container ul li:nth-of-type(2n) h3 small{margin-right: 20px; float: left; line-height: 30px; transform: translateY(40px);} */
-    /* .partner_container ul li:nth-of-type(2n-1) h3 small{margin-left: 20px;} */
     .partner_container ul li h3 small{color: var(--gray3); display: block; margin-top: 20px;}
     .partner_container ul li p{line-height: 30px; clear: both; color: var(--gray3);}
     .partner_container ul li span{margin-top: 60px; display: block;}
     .partner_container ul li a{color: var(--red7); margin-top: 60px;}
     .partner_container ul li:nth-of-type(1) span a{margin-left: 5px;}
     .partner_container ul li a:not(ul li:nth-of-type(1) span a){display: block;}
-
-
-
-
 
 }
 
@@ -1000,7 +909,7 @@
     .index > div:nth-of-type(1) > div form fieldset ul{width: 37.6%; text-align: left; color: var(--cyan7); max-width: 376px; padding: 0 15px; border: 1px solid transparent; box-sizing: border-box; border-radius: 4px 0 0 4px; appearance:none; background: url('../images/expand_more.png') no-repeat 330px #fff;}
     .index > div:nth-of-type(1) > div form fieldset ul.active{ background: url('../images/expand_more.png') no-repeat top 18px right 16px #fff;}
     .index > div:nth-of-type(1) > div form fieldset ul.active li{display: block;; cursor: pointer;}
-    .index > div:nth-of-type(1) > div form fieldset ul li{/* width: 39%; max-width: 376px; */ box-sizing: border-box; display: none; line-height: 44px;}
+    .index > div:nth-of-type(1) > div form fieldset ul li{ box-sizing: border-box; display: none; line-height: 44px;}
     .index > div:nth-of-type(1) > div form fieldset ul li.active{display: block; }
     .index > div:nth-of-type(1) > div form fieldset ul li:nth-of-type(2) , .index > div:nth-of-type(1) > div form fieldset ul.active li:nth-of-type(2).active{
         background: url('../images/MICHELIN_3Star.png') no-repeat right; 
@@ -1033,7 +942,7 @@
     .index > div:nth-of-type(2) > ul li{padding: 13px 2.65%; border: 1px solid #fff; box-sizing: border-box; cursor: pointer; float: left;}
     .index > div:nth-of-type(2) > ul li:first-of-type{border-radius: 5px 0 0 5px;}
     .index > div:nth-of-type(2) > ul li:last-of-type{border-radius: 0 5px 5px 0;}
-    .index > div:nth-of-type(2) > ul li.active{background-color: var(--red7); color: var(--gray9); /* padding: 13px 2.2%; */}
+    .index > div:nth-of-type(2) > ul li.active{background-color: var(--red7); color: var(--gray9);}
 
     .index > div:nth-of-type(2) > div{display: none;}
     .index > div:nth-of-type(2) > div.active{display: block; margin: 0 auto;}
@@ -1059,36 +968,20 @@
         text-align: center; color: var(--gray9); margin-bottom: 60px;
     }
     .index > div:nth-of-type(3) .wrap h2 mark{color: var(--green7); background-color: transparent; margin-right: 10px;}
-    .index > div:nth-of-type(3) .wrap{
-        /* max-width: 1085px; margin: 0 auto; */
-    }
     .index > div:nth-of-type(3) .wrap .slick-slider{
         box-shadow: none;
         border: none;
         background: transparent;
-        /* margin-bottom: 0; */
-        /* max-width: 1085px !important; */
         margin-bottom: 60px;
     }
-    .index > div:nth-of-type(3) .wrap .mainSlider{
-        /* margin-bottom: 60px; */
-    }
-    .index > div:nth-of-type(3) .wrap .mainSlider .slick-list{/* padding: 0 !important; */}
-    .index > div:nth-of-type(3) .wrap .slick-list .slick-track > li{
-        /* margin-left: 185px !important; */
-    }
-    /* vw를 사용해야함 , 큰tag로 감싸고 조절해야함 , 마진값은 따로 적용못함 */
-    /* .index > div:nth-of-type(3) .wrap ul.mainSlider::after{content: ''; display: block; clear: both; visibility: hidden;} */
     .index > div:nth-of-type(3) .wrap .slick-list .slick-track > li > div{
         width: 100% !important; max-width: 450px; margin: 0 auto;
         border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box; 
     }
     .slick-prev:before, .slick-next:before {
         font-family: none;
-        /* font-size: none; */
         line-height: 1;
         opacity: 0;
-        /* color: none; */
         -webkit-font-smoothing: none;
         -moz-osx-font-smoothing: none;
     }
@@ -1103,9 +996,6 @@
         right: -4%; z-index: 3;
         background: url("../images/controls_next.png") no-repeat; width: 20px; height: 36px;
     }
-    .index > div:nth-of-type(3) .wrap ul li{
-        /* border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box; */
-    }
     .index > div:nth-of-type(3) .wrap .slick-slider .slick-prev:hover{
         left: -4%; z-index: 3;
         background: url("../images/controls_prev_active.png") no-repeat; width: 20px; height: 36px;
@@ -1114,10 +1004,6 @@
         right: -4%; z-index: 3;
         background: url("../images/controls_next_active.png") no-repeat; width: 20px; height: 36px;
     }
-    .index > div:nth-of-type(3) .wrap ul li{
-        /* width: 632px !important; */
-        }
-    
     .index > div:nth-of-type(3) .wrap > ul > li:not(:nth-of-type(n+3)){margin-bottom: 60px;}
     .index > div:nth-of-type(3) .wrap > ul > .slick-list .slick-track .slick-slide div a img{ width: 100%;}
     .index > div:nth-of-type(3) .wrap > ul > li a,
@@ -1228,21 +1114,18 @@
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > span strong small{display: inline-block; margin-left: 5px; color: var(--gray5);}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > span > span{display: block; margin-top: 20px; color: var(--gray5); line-height: 20px;}
     .list_container .wrap div:nth-of-type(1) > ul.list_View li a > b{display: block; box-sizing: border-box; color: var(--cyan4); border-top: 1px solid #d1d1d1; padding-top: 20px;}
-    .list_container .wrap div:nth-of-type(1) > ul.grid_View li{border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;/*  width: 37.5%; max-width: 450px; float: left; */}
+    .list_container .wrap div:nth-of-type(1) > ul.grid_View li{border: 1px solid #d1d1d1; background-color: var(--gray9); border-radius: 5px; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View::after{content: ''; display: block; clear: both; visibility: hidden;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li{width: 48%; max-width: 360px; float: left;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:not(:nth-of-type(2n-1)){margin-left: 10%;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:nth-of-type(-n + 9){margin-bottom: 60px;}
-    .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;/*  max-height: 260px; */}
+    .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a{display: block; border-radius: 5px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong{display: block; color: var(--sky3);}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span strong small{display: block; color: var(--gray5); padding: 10px 0 15px; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > span{display: none;}
-    /* .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span > i:last-of-type{margin-left: 66%;} */
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li b{display: block; margin-left: 18px; padding: 15px; color: var(--cyan4); box-sizing: border-box; background: url('../images/address_index.png') no-repeat left;}
-    
-    
     .list_container .wrap div:nth-of-type(2){margin-left: 6.4%; width: 27%; max-width: 320px;}
     .list_container .wrap div:nth-of-type(2) form fieldset{ margin-bottom: 50px;}
     .list_container .wrap div:nth-of-type(2) form fieldset legend{text-transform: capitalize; color: var(--sky3); width: 100%;}
@@ -1258,7 +1141,6 @@
     .list_container .wrap div:nth-of-type(2) ol > li ul{padding: 20px 0; box-sizing: border-box;}
     .list_container .wrap div:nth-of-type(2) ol > li ul > li{text-transform: capitalize;}
     .list_container .wrap div:nth-of-type(2) ol > li ul > li:not(:last-of-type){margin-bottom: 15px;}
-
     .list_container .wrap div.pager{width: 66.6%; max-width: 800px; text-align: center; transform: translateX(25%);}
     .list_container .wrap div.pager > *{float: left;}
     .list_container .wrap div.pager::after{content: ''; clear: both; display: block; visibility: hidden;}
@@ -1268,7 +1150,6 @@
     .list_container .wrap div.pager > a:nth-of-type(2){background: url('../images/pager_rightArrow.png') no-repeat center;}
     .list_container .wrap div.pager > a:nth-of-type(1):hover{background: var(--green7) url('../images/pager_leftArrow_active.png') no-repeat center;}
     .list_container .wrap div.pager > a:nth-of-type(2):hover{background: var(--green7) url('../images/pager_rightArrow_active.png') no-repeat center;}
-    /* .list_container .wrap div.pager > a{padding: 10px 15px;} */
     .list_container .wrap div.pager ol::after{content: ''; clear: both; display: block; visibility: hidden;}
     .list_container .wrap div.pager ol{padding: 0 20px; box-sizing: border-box; line-height: 35px;}
     .list_container .wrap div.pager ol li{float: left;}
@@ -1276,7 +1157,6 @@
     .list_container .wrap div.pager ol li a{color: var(--cyan7);}
     .list_container .wrap div.pager ol li a:hover{color: var(--sky3);}
     .list_container .wrap div.pager ol li a.active{color: var(--sky3);}
-
 
     .detail_container{margin-bottom: 60px;}
     .detail_container > div:nth-of-type(1){margin-bottom: 30px; display: flex;}
@@ -1297,7 +1177,6 @@
     .detail_container > div:nth-of-type(2) ul li a{display: block;}
     
     .detail_container > div:nth-of-type(3).wrap > *:not(:last-child){float: left;}
-    /* .detail_container > div:nth-of-type(3).wrap::after{content: ''; display: block; clear: both; visibility: hidden;} */
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1){width: 66.7%; max-width: 800px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div{margin-bottom: 60px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div h2{text-transform: capitalize; color: var(--sky3);}
@@ -1306,11 +1185,9 @@
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) span{display: block; transform: translateY(-25%); margin-bottom: 10px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) span i{margin-right: 10px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(1) p{ line-height: 20px;}
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(2) ul::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(2) ul li{float: left; width: 50%; color: var(--sky3);}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(2) ul li:nth-of-type(n+3){margin-top: 15px;}
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div{width: 100%; }
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul{width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(1) > div:nth-of-type(3) > div > ul > *{ float: left;}
@@ -1330,18 +1207,16 @@
     .detail_container > div:nth-of-type(3).wrap > aside > div a:last-of-type{background: url('../images/detail_link.png') no-repeat; padding: 0 0 1px 25px; }
     .detail_container > div:nth-of-type(3).wrap > aside > div a{display: block;}
     .detail_container > div:nth-of-type(3).wrap > aside h2::after{content: ''; display: block; border-top: 2px solid #eee; margin: 10px 0 20px; width: 100%; max-width: 320px;}
-    .detail_container > div:nth-of-type(3).wrap > aside ul li{text-transform: uppercase; width: 100%; /* display: flex; justify-content: space-between; */}
+    .detail_container > div:nth-of-type(3).wrap > aside ul li{text-transform: uppercase; width: 100%;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li:not(:last-of-type){margin-bottom: 20px;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li::after{content: ''; display: block; clear: both; visibility: hidden;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span{display: block; float: right; width: 30%; margin-right: 50%;}
     .detail_container > div:nth-of-type(3).wrap > aside ul li span.detail_closed{color: var(--red7);}
-
-
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2){clear: both;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) h2{color: var(--sky3); margin-bottom: 20px;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li{width: 31%; max-width: 360px; display: inline-block;  border: 1px solid #d1d1d1; border-radius: 5px; box-sizing: border-box;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li:not(:first-of-type){margin-left: 3%;}
-    .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li img{width: 100%; /* max-height: 220px; */ border: 1px solid #d1d1d1; border-radius: 5px 5px 0 0;}
+    .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li img{width: 100%; border: 1px solid #d1d1d1; border-radius: 5px 5px 0 0;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li a{display: block;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li a span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
     .detail_container > div:nth-of-type(3).wrap > div:nth-of-type(2) ul li a span strong{display: block; color: var(--sky3);}
@@ -1409,8 +1284,6 @@
     .legal_container span{display: block; margin-bottom: 60px;}
     
     .about_container figure.active img{
-        /* animation-name: imgEvent;
-        animation-duration: 7s; */
         opacity: 1;
     }
     .about_container > div:nth-of-type(2) > figure.active figcaption{
@@ -1433,7 +1306,6 @@
     .about_container > hr{width: 800px; margin: 0 auto; margin-bottom: 80px;}
     .about_container > div > h3{margin-bottom: 60px;}
     .about_container > div > figure{position: relative; display: flex; }
-    /* 여기 */
     .about_container > div > figure img{margin-bottom: 90px; transition: 3s; opacity: 0;}
     .about_container > div > figure figcaption{color: var(--gray1); position: absolute; top: 18%; padding: 50px 3%; background-color: white; /* opacity: 0.7; */ }
     .about_container > div:nth-of-type(2) > figure figcaption{transform: translateX(-20%); opacity: 0; transition: 2s;}
@@ -1441,8 +1313,6 @@
     .about_container > div > figure figcaption > p:not(:last-of-type){margin-bottom: 50px;}
     .about_container > div > p{width: 100%; max-width: 1200px; margin: 0 auto;}
     .about_container > div > p:not(.wrap:first-of-type > p){ text-align: center;}
-
-    
 
     .about_container > div:nth-of-type(2) , .about_container > div:nth-of-type(3){margin-bottom: 120px;}
     .about_container > div:nth-of-type(2) h3{margin-left: 18.5%;}
@@ -1458,8 +1328,8 @@
     .partner_container h2{padding-bottom: 60px; color: var(--sky3); box-sizing: border-box; border-bottom: 1px solid var(--gray6);}
     .partner_container h2::before{display: block; content: ''; border-top: 2px solid var(--red7); width: 30px; margin-bottom: 15px;}
     .partner_container ul li:not(:last-of-type){border-bottom: 1px solid var(--gray6);}
-    .partner_container ul li{/* margin-top: 100px;  */padding-bottom: 100px; box-sizing: border-box;} 
-    .partner_container ul li{background-repeat: no-repeat;/*  background-size: 18%; */}
+    .partner_container ul li{padding-bottom: 100px; box-sizing: border-box;} 
+    .partner_container ul li{background-repeat: no-repeat;}
     .partner_container ul li:nth-of-type(1){background-position: right top 20%; padding-top: 105px; background-image: url('../images/partner_genesis.png');}
     .partner_container ul li:nth-of-type(2){background-position: left top 20%; padding-top: 115px; background-image: url('../images/partner_blancpain.png');}
     .partner_container ul li:nth-of-type(3){background-position: right top 20%; padding-top: 100px; background-image: url('../images/partner_naver.png');}
@@ -1469,11 +1339,10 @@
     .partner_container ul li:nth-of-type(7){background-position: right top 20%; padding-top: 120px; background-image: url('../images/partner_sanpellegrino.png');}
     .partner_container ul li:nth-of-type(8){background-position: left top 30%; padding-top: 150px; background-image: url('../images/partner_aberlour.png');}
     .partner_container ul li:nth-of-type(9){background-position: right top 30%; padding-top: 160px; background-image: url('../images/partner_cellarprivee.png');}
-    /* .partner_container ul li:nth-of-type(2n-1){background-position: right top;} */
     .partner_container ul li:nth-of-type(2n-1) > a{text-align: right;}
     .partner_container ul li h3{color: var(--red7); text-transform: uppercase; margin-bottom: 120px;}
     .partner_container ul li:nth-of-type(2n) h3{float: right;}
-    .partner_container ul li:nth-of-type(2n) h3 small{margin-right: 20px; float: left; /* line-height: 30px; */ transform: translateY(40px);}
+    .partner_container ul li:nth-of-type(2n) h3 small{margin-right: 20px; float: left; transform: translateY(40px);}
     .partner_container ul li:nth-of-type(2n-1) h3 small{margin-left: 20px;}
     .partner_container ul li h3 small{color: var(--gray3);}
     .partner_container ul li p{line-height: 30px; clear: both;}

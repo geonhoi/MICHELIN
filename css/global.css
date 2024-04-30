@@ -44,9 +44,7 @@
     footer > div:nth-of-type(2){
         background-color: white;
     }
-    footer > div:nth-of-type(1){padding: 65px 0; background-color:  var(--sky3); position: relative;}
-    /* footer > div:nth-of-type(1)::before{content: ''; display: inline-block;border-left: 1px solid #4fd36d; width: 1px; height: 70px; position: absolute; transform: translate(0 , -25%); box-shadow: -0.5px 0px 4px 0px #3e7653;} */
-    footer > div:nth-of-type(1){display: flex; flex-direction: column;}
+    footer > div:nth-of-type(1){padding: 65px 0; background-color:  var(--sky3); position: relative; display: flex; flex-direction: column; z-index: 6;}
     footer > div:nth-of-type(1) p{color: var(--gray9); width: 92%; max-width: 665px; line-height: 21px; text-align: center; margin: 0 auto 35px;}
     footer > div:nth-of-type(1) a{background: url("../images/add_restaurant.png") no-repeat 20px center #51d46e; color: white; border-radius: 5px; width: 68%; max-width: 190px; border: 1px solid #51d46e; background-color: #51d46e; padding: 17px var(--w20); text-align: right; box-sizing: border-box; margin: 0 auto;}
     footer > div:nth-of-type(2){padding: 40px 0;}
