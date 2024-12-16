@@ -646,7 +646,7 @@
     .list_container .wrap div:nth-of-type(1) > ul.grid_View::after{content: ''; display: block; clear: both; visibility: hidden;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li{width: 47%; max-width: 330px;/*  float: left; */}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li:not(:nth-of-type(2n-1)){margin-left: 8.3%;}
-    .list_container .wrap div:nth-of-type(1) > ul.grid_View li:nth-of-type(-n + 9){margin-bottom: 60px;}
+    .list_container .wrap div:nth-of-type(1) > ul.grid_View li:nth-of-type(-n + 8){margin-bottom: 60px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li img{width: 100%; border-radius: 5px 5px 0 0;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a{display: block; border-radius: 5px;}
     .list_container .wrap div:nth-of-type(1) > ul.grid_View li a > span{display: block; padding: 18px 18px 10px 18px; box-sizing: border-box; border-bottom: 1px solid #d1d1d1;}
