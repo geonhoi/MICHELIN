@@ -4158,9 +4158,7 @@
         opacity: 0;
     }
 
-    .about_container>div:nth-of-type(2)>figure img {}
 
-    .about_container>div:nth-of-type(3)>figure img {}
 
     .about_container>div>figure figcaption {
         color: var(--gray1);
@@ -4217,7 +4215,7 @@
     }
 
     .about_container>div:nth-of-type(4) img {
-        isplay: block;
+        display: block;
         margin: 0 auto 100px;
     }
 
